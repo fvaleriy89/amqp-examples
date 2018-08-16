@@ -10,5 +10,6 @@ $application = new Application();
 
 // ... register commands
 $application->add(new \App\Commands\TestCommand);
+$application->add(new \App\Commands\PublishCommand);
 
 $application->run();
